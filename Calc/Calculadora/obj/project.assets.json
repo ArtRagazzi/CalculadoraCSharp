@@ -8,23 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Ragazzi\\.nuget\\packages\\": {},
+    "C:\\Users\\felip\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ragazzi\\Desktop\\Calculadora\\Calc\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Documentos\\Etec 2 semestre\\DS2\\Atividade2- Calculadora\\Calculator\\Calculator\\Calculadora\\Atividade_DS_Calculadora\\Calculadora\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "C:\\Users\\Ragazzi\\Desktop\\Calculadora\\Calc\\Calculadora\\Calculadora.csproj",
-      "packagesPath": "C:\\Users\\Ragazzi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ragazzi\\Desktop\\Calculadora\\Calc\\Calculadora\\obj\\",
+      "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Etec 2 semestre\\DS2\\Atividade2- Calculadora\\Calculator\\Calculator\\Calculadora\\Atividade_DS_Calculadora\\Calculadora\\Calculadora.csproj",
+      "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Etec 2 semestre\\DS2\\Atividade2- Calculadora\\Calculator\\Calculator\\Calculadora\\Atividade_DS_Calculadora\\Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ragazzi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -60,6 +60,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.14, 5.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

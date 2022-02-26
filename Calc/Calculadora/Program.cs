@@ -1,43 +1,27 @@
 ﻿using System;
 
 namespace Calculadora
+
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            int num1, num2, resultado = 0;
-
-            string operacao;
-            Console.WriteLine("Digite o primeiro numero:");
-            num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite a Operação (+ - * /)");
-            operacao = Console.ReadLine();
-            Console.WriteLine("Digite o Segundo numero:");
-            num2 = int.Parse(Console.ReadLine());
-
-            switch (operacao)
-            {
-                case "+":
-                    resultado = num1 + num2;
-                    break;
-                case "-":
-                    resultado = num1 - num2;
-                    break;
-                case "*":
-                    resultado = num1 * num2;
-                    break;
-                case "/":
-                    resultado = num1 / num2;
-                    break;
-                default:
-                    Console.WriteLine("Digite uma operação Valida (+ - * /)");
-                    break;
-            }
-
-            Console.WriteLine("O resultado de {0} {1} {2} é {3}", num1, operacao, num2, resultado);
-
-            Console.ReadKey(true);
+            double num1 = 0, num2 = 0;
+            string escolhaNum="";
+            Console.WriteLine("Digite o primeiro numero: ");
+            escolhaNum = Console.ReadLine();
+            num1 = double.Parse(escolhaNum);
+            Console.WriteLine("Digite o segundo numero: ");
+            escolhaNum = Console.ReadLine();
+            num2 = double.Parse(escolhaNum);
+            Console.WriteLine("Adição: {0}",num1 + num2);
+            Console.WriteLine("Subtração: {0}", num1 - num2);
+            Console.WriteLine("Multiplicação: {0}", num1 * num2);
+            Console.WriteLine("Divisão: {0}", num1 / num2);
+            Console.ReadKey();
         }
     }
 }
+
+

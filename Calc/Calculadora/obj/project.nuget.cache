@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BjDwcV3G8n0ZMaNMp/5pygivrU4atfQCeV++0Dto6THxWCnj6qlRWZ77noxNgfW5YA4w87EbzchwzGq/9nU8LA==",
+  "dgSpecHash": "WjUDYEarSrxijqyTj4+Zul9zkx5kxDmVzqisXJBizb5YoKII+AxVjDqGArWTkN2VfdAjpifcIL67TQQ4+VmyeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ragazzi\\Desktop\\Calculadora\\Calc\\Calculadora\\Calculadora.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\felip\\OneDrive\\Documentos\\Etec 2 semestre\\DS2\\Atividade2- Calculadora\\Calculator\\Calculator\\Calculadora\\Atividade_DS_Calculadora\\Calculadora\\Calculadora.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felip\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
